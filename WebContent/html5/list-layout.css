@@ -1,0 +1,160 @@
+﻿.content-wrapper
+{
+    
+    height:inherit;
+    min-height:inherit;
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+ 
+}
+
+
+#header
+{
+    /*background: #b6ff00;*/
+    height: 100px;
+}
+
+#body
+{
+    min-height: 720px;
+    
+}
+
+#footer
+{
+    background: #808080;
+    height: 100px;
+    
+}
+
+#side
+{
+    /*background: #00ffff;
+    opacity:0.3;*/
+    border: 5px dashed #0094ff;
+    margin-right: 5px;
+
+    min-height: inherit;
+    width: 220px;
+    float: left;
+}
+
+#main
+{
+    /*background: #0094ff;
+    opacity:0.3;*/
+    border: 5px dashed #b200ff;
+    margin-right: 5px;
+
+    min-height: inherit;
+    min-width: 800px;
+    float: left;
+}
+
+#quick
+{
+    /*background: #b200ff;
+    opacity:0.3;*/
+    border: 5px dashed #ff6a00;
+
+    min-height: inherit;
+    width: 100px;
+    float: left;    
+}
+/*///*/
+table{
+   
+    text-align: center;
+    margin-left:100px;
+    margin-top:50px;
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+th{
+    background-color: #d0d0d0;
+    font-weight:bold;
+}
+th,td{
+    border:1px solid gray;
+    padding:5px;
+}
+
+
+
+/*////*/
+
+
+input{
+
+    color:#ff0000;
+}
+
+
+#day{
+    margin-left:190px;
+    margin-top:10px;
+
+
+}
+
+#thm{
+    text-align: center;
+}
+
+
+
+/*/////////*/
+
+.page-before-item
+{    margin-bottom:0px;
+    float:left;
+    padding-top:30px;
+    padding-left:250px;
+}
+
+.page-number
+{   margin-bottom:0px;
+    float:left;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+.page-after-item
+{    margin-bottom:0px;
+    float:left;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+.page-number-text
+{    margin-bottom:0px;
+    font-family:맑은 고딕, 고딕, sans-serif;
+    font-size:12px;
+    font-weight : bold;
+    color:#000000;
+}
+
+.page-before-text
+{   margin-bottom:0px; 
+    font-family:맑은 고딕, 고딕, sans-serif;
+    font-size:12px;
+    font-weight : bold;
+    color:#000000;
+}
+
+.page-after-text
+{   margin-bottom:0px;
+    font-family:맑은 고딕, 고딕, sans-serif;
+    font-size:12px;
+    font-weight : bold;
+    color:#000000;
+}
+.write-btn-item{
+    
+    padding-left:650px;
+    padding-top:-50px;
+
+
+}

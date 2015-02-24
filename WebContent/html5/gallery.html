@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="gallery.js" type="text/javascript"></script>
+<link href="../css/reset.css" rel="stylesheet" type="text/css" />	<!-- 리셋가져오기 -->
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+	.gallery{
+		width:500px;
+		height:400px;
+		border:1px solid#000;	
+	}
+	.gallery-show-box{
+		width:inherit;	/* width가 같기에 상속or100% */
+		height:300px;
+		background:#828282;
+		overflow:hidden;
+	}
+	
+	.gallery-show-box > img{
+		display:block;
+		margin-top:25px;
+		margin-left:auto;
+		margin-right:auto;
+		height:250px;
+		
+		
+		/* ////// */
+		
+		transform: rotate(0deg);
+        
+		
+		
+		/* /// */
+		
+		
+			}
+	
+	
+	
+	.gallery-show-box > img:hover{
+		display:block;
+		
+		margin-top:25px;
+		
+		margin-left:auto;
+		margin-right:auto;
+		height:250px;
+		
+		
+		/* ////// */
+			transform: rotate(31deg);
+        
+	/* -webkit-transform: rotate(31deg) ;
+      -moz-transform: rotate(31deg) ;
+      -o-transform: rotate(31deg) ;
+      -ms-transform: rotate(31deg) ; */
+		
+		}
+	
+	
+	.gallery-pic-box{
+		width:100%;	/* width가 같기에 상속or100% */
+		height:100px;
+		background:#000;
+	}
+	.gallery-pic-list{
+		position: absolute;
+		left:0px;
+		top:0px;
+		height:100%;
+		display:inline-block;
+		border:1px solid red;
+		width:2000px;
+	}
+	.gallery-pic-clipper{
+		position:relative;
+		width:450px;
+		height:100%;
+		float:left;
+		overflow: hidden;
+	}
+	
+	.gallery-pic-item{
+		float:left;
+		height:100%;
+		width:80px;
+		border:1px solid #ffffff;
+	}
+	
+	.gallery-pic{
+		height:100%;
+		width:80px;
+		border:1px solid #ffffff;
+	}
+	.gallery-prev-button{
+		width:25px;
+		height:100%;
+		float:left;
+		background:pink;
+	}
+	.gallery-next-button{
+		width:25px;
+		height:100%;
+		float:left;
+		background:pink;
+	}
+	.gallery-file{
+		display:none;
+	}
+	
+	
+</style>
+
+<body>
+	<div class="gallery">
+		<div class="gallery-show-box" id="gallery-show-box">
+			<!-- <img src="pic1.jpg"/> -->
+		</div>
+		<div class="gallery-pic-box">
+			<div class="gallery-prev-button">◀</div>
+			
+			<div class="gallery-pic-clipper">
+				<ul id="gallery-pic-list" class="gallery-pic-list">
+					<a href="http://www.daum.net" id="gallery-pic1">
+						<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic1" src="1.jpg"/></li>
+					</a>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic2" src="1.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic3" src="10.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic1" src="3.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic2" src="5.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic3" src="1.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic1" src="10.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic2" src="3.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic3" src="5.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic1" src="1.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic2" src="10.jpg"/></li>
+					<li class="gallery-pic-item"><img class="gallery-pic" id="gallery-pic3" src="3.jpg"/></li>
+				</ul>
+			</div>
+			
+			
+			<div class="gallery-next-button">▶</div>
+		</div>
+	</div>
+	<div>
+		<input type="file" id="gallery-file" class="gallery-file"/>
+		<span id="file-button" class="file-button">파일선택</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+
+<script type="text/javascript">
+
+
+
+/* function changeImage(){
+	
+	
+	
+	
+	var img1 =document.getElementsByTagNameNS("img1");
+	img1.src =flow;jaf
+	 */
+	/* 
+	var nodes =document.body.childNodes;
+	
+	for(var 1=0; i<nodes.length; i++)
+		alert(nodes[1].nodesType); */
+	
+}
+
+
+
+</script>
+
+</head>
+<body>
+
+<script>
+
+
+
+function init(){
+	
+	var imgcha=document.getElementById("img-cha");
+	
+	
+	imgcha.onclick = changeImage;
+	
+}	
+
+
+
+
+
+function changeImage(){
+	
+	
+	
+	
+	var img1 =document.getElementById("img1");
+	var txt1= document.getElementById("txt1");
+	var txtBorder =document.getElementById("txtBorde");	
+	
+	
+	img1.src =txt1.value;
+	//img1.style.border="10px solid #0000ff";
+	
+	img1.style.borderWidth="txtBorder.value";
+	
+	
+	
+}
+	
+		window.onload=init;
+
+		
+		
+		</script>
+
+
+<form>
+    
+   
+    
+     <input id="txt1"/> <input type="button"  onclick ="changImage();" value="Change" id="img-cha"/>
+    
+    <img id="img1" src="10.jpg" style="border: 5px solid #ff0000;"/>
+    
+    
+    
+</form>
+
+    <input id ="txt-border"/>
+
+
+
+
+
+</body>
+
+
+</html>

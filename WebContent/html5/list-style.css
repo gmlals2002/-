@@ -1,0 +1,198 @@
+﻿
+body
+{
+    font-family: 맑은고딕, 고딕, sans-serif;
+    font-size: 15px;
+    /*color: #454545*/;
+    /*background: url("../../images/bg-img-sha.png") no-repeat center;*/
+}
+
+a
+{
+    /*color: #979797;*/
+    text-decoration: none;
+}
+
+
+.logo
+{
+    font-family: 맑은고딕, 고딕, sans-serif;
+    font-size: 15px;
+    color: #20258c;
+  
+    margin: 20px 55px 0px 25px;
+    float:left;
+}
+
+h1.logo
+{
+    float: left;
+    /*padding-right: 20px;*/
+}
+
+
+#total-search-button
+{
+    width: 18px;
+    height: 18px;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url("../../images/search.png") no-repeat center;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+
+/*.main-menu-item
+{    
+    background: url("../../images/bg-main-menu-vsp.png") no-repeat 13px center;
+    float: left;
+    padding-left: 40px;
+    padding-right: 60px;
+    margin-top: 30px;
+}*/
+
+.main-menu-text
+{
+    font-family: 맑은고딕, 고딕, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+
+    float: left;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+/*.member-menu-item
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url("../../images/bg-member-menu-vsp.png") no-repeat 7px center;
+}*/
+
+.member-menu-text
+{
+    font-family: 맑은고딕, 고딕, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #3811c1;
+
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+#main-title
+{
+    font-family: 맑은고딕, 고딕, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #646464;
+    padding-left: 25px;
+}
+
+.subject
+{
+    margin-top: 10px;
+}
+
+.side-menu-list
+{
+    font-size: 20px;
+    font-weight:500;
+    color: #3811c1;
+
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+#side-title
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+    
+
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+#main-title
+{
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+
+    padding: 50px 0px 0px 300px;
+ }
+
+#full-path
+{
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.path
+{
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+
+#search-form
+{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.main-list-row
+{   padding-left: 200px;
+    padding-bottom: 30px;
+}
+
+.main-list-item
+{
+    padding: 60px 30px 60px 30px; 
+    
+    border: 1px solid #000000;
+}
+
+
+#quick
+{
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+
+#quick-title
+{
+    font-size: 17px;
+    font-weight:700;
+
+    padding-top : 100px ;
+    padding-left: 5px;
+}
+
+#text-main
+{
+    margin: 50px 0px 15px 75px;
+
+    width: 600px;
+    height: 400px;
+    display:block;
+}
+
+.reg-button
+{
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.reg-button[value="저장"]
+{
+    margin-left: 300px;
+}

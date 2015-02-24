@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>createTextNode ¿¹Á¦</title>
+
+<script type="text/javascript">
+
+
+
+
+
+function init(){
+	
+	
+	
+	var para = document.getElementById("p1");
+	para.onclick = addTextNode();
+	
+	var pic = document.getElementById("t1");
+	pic.onclick = addImgNode();
+	
+	
+	
+}
+
+
+
+function addTextNode()
+{
+var newtext = document.createTextNode(" ¾È³ç°ï´ÏÂî¿ÍÇï·Î ");
+var para = document.getElementById("p2");
+para.appendChild(newtext);
+}
+
+
+
+function addImgNode(){
+	
+	
+	var newimg = document.createElement("newimg");
+	var pic = document.getElementById("p2");
+	pic.appendChild(newpic);
+	
+	
+	newimg.src ="1.jpg";
+	
+	}
+	
+function deleteNode(){
+	
+	var div1 = document.getElementById("d1");
+	var newtxt = div1.lastChild;
+	div1.replaceChild(last);
+	
+	
+	
+}	
+
+function cloneNode(){
+	
+	div1 =document.getElementById(div1);
+	var clone1 = div1.cloneNode(ture);
+	
+	
+	
+}
+	
+
+
+
+//window.onload=init;
+
+
+
+</script>
+</head>
+
+<body>
+<div id ="p2" >
+<p >
+
+
+<input type="button" value ="addTextNode" id ="p1"/>
+<input type="button" value ="addImgNode" id=  "t1"/>
+<input type="button" value ="deleteNode" id=  "d1"/>
+<input type="button" value ="cloneNode" id=  "c1"/>
+
+</p>
+</div>
+
+
+<!-- <button onclick="addTextNode();">TextNode Ãß°¡ÇÏ±â.</button> -->
+
+</body>
+</html>
